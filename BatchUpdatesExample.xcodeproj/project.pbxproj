@@ -7,12 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18A23079BAE587A4F7B19712 /* Pods_BatchUpdatesExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6E68672DAA8E062A7A5DE0C /* Pods_BatchUpdatesExampleTests.framework */; };
+		8856AFE304EBA38EDEAEABBF /* Pods_BatchUpdatesExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B5D4F501E1F53C71BEF6C6 /* Pods_BatchUpdatesExample.framework */; };
+		AD3381561EA51E940072D376 /* AnimatedMoviePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3381551EA51E940072D376 /* AnimatedMoviePresenter.swift */; };
+		AD33815C1EA526380072D376 /* TableViewBatchUpdates.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD33815B1EA526380072D376 /* TableViewBatchUpdates.swift */; };
+		AD3381601EA561560072D376 /* BatchUpdatesMoviePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD33815F1EA561560072D376 /* BatchUpdatesMoviePresenter.swift */; };
+		AD3381631EA570970072D376 /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3381611EA570960072D376 /* MovieViewController.swift */; };
+		AD3381641EA570970072D376 /* StartingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3381621EA570960072D376 /* StartingViewController.swift */; };
+		AD3381661EA570A10072D376 /* BatchUpdates.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3381651EA570A10072D376 /* BatchUpdates.swift */; };
 		ADA936F61EA4FF2F003D3660 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA936F51EA4FF2F003D3660 /* AppDelegate.swift */; };
-		ADA936F81EA4FF2F003D3660 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA936F71EA4FF2F003D3660 /* ViewController.swift */; };
-		ADA936FB1EA4FF2F003D3660 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADA936F91EA4FF2F003D3660 /* Main.storyboard */; };
 		ADA936FD1EA4FF2F003D3660 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADA936FC1EA4FF2F003D3660 /* Assets.xcassets */; };
 		ADA937001EA4FF2F003D3660 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADA936FE1EA4FF2F003D3660 /* LaunchScreen.storyboard */; };
-		ADA9370B1EA4FF2F003D3660 /* BatchUpdatesExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA9370A1EA4FF2F003D3660 /* BatchUpdatesExampleTests.swift */; };
+		ADA9370B1EA4FF2F003D3660 /* BatchUpdates.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA9370A1EA4FF2F003D3660 /* BatchUpdates.swift */; };
+		ADA937161EA5002F003D3660 /* LabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA937151EA5002F003D3660 /* LabelCell.swift */; };
+		ADA9371A1EA501B6003D3660 /* Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA937191EA501B6003D3660 /* Identifiable.swift */; };
+		ADA9371C1EA501F8003D3660 /* DequableTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA9371B1EA501F8003D3660 /* DequableTableView.swift */; };
+		ADA9371E1EA50520003D3660 /* MoviePresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA9371D1EA50520003D3660 /* MoviePresentable.swift */; };
+		ADA937221EA50833003D3660 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA937211EA50833003D3660 /* MovieCell.swift */; };
+		ADA937261EA509BB003D3660 /* MoviePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA937251EA509BB003D3660 /* MoviePresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +38,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0EE3800981FF0428EECFA734 /* Pods-BatchUpdatesExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BatchUpdatesExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BatchUpdatesExample/Pods-BatchUpdatesExample.debug.xcconfig"; sourceTree = "<group>"; };
+		4370240B0AD20AC0DE596A6E /* Pods-BatchUpdatesExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BatchUpdatesExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-BatchUpdatesExample/Pods-BatchUpdatesExample.release.xcconfig"; sourceTree = "<group>"; };
+		AD3381551EA51E940072D376 /* AnimatedMoviePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnimatedMoviePresenter.swift; path = Presenters/AnimatedMoviePresenter.swift; sourceTree = "<group>"; };
+		AD33815B1EA526380072D376 /* TableViewBatchUpdates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewBatchUpdates.swift; path = Helpers/TableViewBatchUpdates.swift; sourceTree = "<group>"; };
+		AD33815F1EA561560072D376 /* BatchUpdatesMoviePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BatchUpdatesMoviePresenter.swift; path = Presenters/BatchUpdatesMoviePresenter.swift; sourceTree = "<group>"; };
+		AD3381611EA570960072D376 /* MovieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MovieViewController.swift; path = ViewControllers/MovieViewController.swift; sourceTree = "<group>"; };
+		AD3381621EA570960072D376 /* StartingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StartingViewController.swift; path = ViewControllers/StartingViewController.swift; sourceTree = "<group>"; };
+		AD3381651EA570A10072D376 /* BatchUpdates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BatchUpdates.swift; path = Helpers/BatchUpdates.swift; sourceTree = "<group>"; };
 		ADA936F21EA4FF2F003D3660 /* BatchUpdatesExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BatchUpdatesExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADA936F51EA4FF2F003D3660 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ADA936F71EA4FF2F003D3660 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		ADA936FA1EA4FF2F003D3660 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ADA936FC1EA4FF2F003D3660 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADA936FF1EA4FF2F003D3660 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADA937011EA4FF2F003D3660 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADA937061EA4FF2F003D3660 /* BatchUpdatesExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BatchUpdatesExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		ADA9370A1EA4FF2F003D3660 /* BatchUpdatesExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatchUpdatesExampleTests.swift; sourceTree = "<group>"; };
+		ADA9370A1EA4FF2F003D3660 /* BatchUpdates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatchUpdates.swift; sourceTree = "<group>"; };
 		ADA9370C1EA4FF2F003D3660 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADA937151EA5002F003D3660 /* LabelCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LabelCell.swift; path = Cells/LabelCell.swift; sourceTree = "<group>"; };
+		ADA937191EA501B6003D3660 /* Identifiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Identifiable.swift; path = Helpers/Identifiable.swift; sourceTree = "<group>"; };
+		ADA9371B1EA501F8003D3660 /* DequableTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DequableTableView.swift; path = Helpers/DequableTableView.swift; sourceTree = "<group>"; };
+		ADA9371D1EA50520003D3660 /* MoviePresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviePresentable.swift; sourceTree = "<group>"; };
+		ADA937211EA50833003D3660 /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MovieCell.swift; path = Cells/MovieCell.swift; sourceTree = "<group>"; };
+		ADA937251EA509BB003D3660 /* MoviePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MoviePresenter.swift; path = Presenters/MoviePresenter.swift; sourceTree = "<group>"; };
+		B3B5D4F501E1F53C71BEF6C6 /* Pods_BatchUpdatesExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BatchUpdatesExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3FDAA3BCC8B9DDE0DE8BD76 /* Pods-BatchUpdatesExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BatchUpdatesExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BatchUpdatesExampleTests/Pods-BatchUpdatesExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		E6E68672DAA8E062A7A5DE0C /* Pods_BatchUpdatesExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BatchUpdatesExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F30A26B65550B5998D215F48 /* Pods-BatchUpdatesExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BatchUpdatesExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BatchUpdatesExampleTests/Pods-BatchUpdatesExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8856AFE304EBA38EDEAEABBF /* Pods_BatchUpdatesExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +79,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18A23079BAE587A4F7B19712 /* Pods_BatchUpdatesExampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		055926549C3D913CA38A3CBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3B5D4F501E1F53C71BEF6C6 /* Pods_BatchUpdatesExample.framework */,
+				E6E68672DAA8E062A7A5DE0C /* Pods_BatchUpdatesExampleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ADA936E91EA4FF2F003D3660 = {
 			isa = PBXGroup;
 			children = (
 				ADA936F41EA4FF2F003D3660 /* BatchUpdatesExample */,
 				ADA937091EA4FF2F003D3660 /* BatchUpdatesExampleTests */,
 				ADA936F31EA4FF2F003D3660 /* Products */,
+				FCD82FA19D3FDCD3D87BDED2 /* Pods */,
+				055926549C3D913CA38A3CBD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,9 +118,12 @@
 		ADA936F41EA4FF2F003D3660 /* BatchUpdatesExample */ = {
 			isa = PBXGroup;
 			children = (
+				ADA937241EA5098C003D3660 /* Presenters */,
+				ADA937231EA5097F003D3660 /* ViewControllers */,
+				ADA937181EA50182003D3660 /* Helpers */,
+				ADA937171EA500B1003D3660 /* Cells */,
 				ADA936F51EA4FF2F003D3660 /* AppDelegate.swift */,
-				ADA936F71EA4FF2F003D3660 /* ViewController.swift */,
-				ADA936F91EA4FF2F003D3660 /* Main.storyboard */,
+				ADA9371D1EA50520003D3660 /* MoviePresentable.swift */,
 				ADA936FC1EA4FF2F003D3660 /* Assets.xcassets */,
 				ADA936FE1EA4FF2F003D3660 /* LaunchScreen.storyboard */,
 				ADA937011EA4FF2F003D3660 /* Info.plist */,
@@ -90,10 +134,60 @@
 		ADA937091EA4FF2F003D3660 /* BatchUpdatesExampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				ADA9370A1EA4FF2F003D3660 /* BatchUpdatesExampleTests.swift */,
+				ADA9370A1EA4FF2F003D3660 /* BatchUpdates.swift */,
 				ADA9370C1EA4FF2F003D3660 /* Info.plist */,
 			);
 			path = BatchUpdatesExampleTests;
+			sourceTree = "<group>";
+		};
+		ADA937171EA500B1003D3660 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				ADA937151EA5002F003D3660 /* LabelCell.swift */,
+				ADA937211EA50833003D3660 /* MovieCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		ADA937181EA50182003D3660 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				AD3381651EA570A10072D376 /* BatchUpdates.swift */,
+				AD33815B1EA526380072D376 /* TableViewBatchUpdates.swift */,
+				ADA937191EA501B6003D3660 /* Identifiable.swift */,
+				ADA9371B1EA501F8003D3660 /* DequableTableView.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		ADA937231EA5097F003D3660 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AD3381611EA570960072D376 /* MovieViewController.swift */,
+				AD3381621EA570960072D376 /* StartingViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		ADA937241EA5098C003D3660 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				ADA937251EA509BB003D3660 /* MoviePresenter.swift */,
+				AD3381551EA51E940072D376 /* AnimatedMoviePresenter.swift */,
+				AD33815F1EA561560072D376 /* BatchUpdatesMoviePresenter.swift */,
+			);
+			name = Presenters;
+			sourceTree = "<group>";
+		};
+		FCD82FA19D3FDCD3D87BDED2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0EE3800981FF0428EECFA734 /* Pods-BatchUpdatesExample.debug.xcconfig */,
+				4370240B0AD20AC0DE596A6E /* Pods-BatchUpdatesExample.release.xcconfig */,
+				F30A26B65550B5998D215F48 /* Pods-BatchUpdatesExampleTests.debug.xcconfig */,
+				C3FDAA3BCC8B9DDE0DE8BD76 /* Pods-BatchUpdatesExampleTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,9 +197,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ADA9370F1EA4FF2F003D3660 /* Build configuration list for PBXNativeTarget "BatchUpdatesExample" */;
 			buildPhases = (
+				F730F9BEB9517278425A5FB4 /* [CP] Check Pods Manifest.lock */,
 				ADA936EE1EA4FF2F003D3660 /* Sources */,
 				ADA936EF1EA4FF2F003D3660 /* Frameworks */,
 				ADA936F01EA4FF2F003D3660 /* Resources */,
+				FD8C28A4B3D9E089E55DD77A /* [CP] Embed Pods Frameworks */,
+				7CB2F90825C040F666B58B1C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +217,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ADA937121EA4FF2F003D3660 /* Build configuration list for PBXNativeTarget "BatchUpdatesExampleTests" */;
 			buildPhases = (
+				AF87C6E28D9AF27A4B3A0F74 /* [CP] Check Pods Manifest.lock */,
 				ADA937021EA4FF2F003D3660 /* Sources */,
 				ADA937031EA4FF2F003D3660 /* Frameworks */,
 				ADA937041EA4FF2F003D3660 /* Resources */,
+				D42D1F0F7F9082F2CC6FCA8F /* [CP] Embed Pods Frameworks */,
+				2BD9E0D9C3EF862474EF2220 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -146,7 +246,7 @@
 				TargetAttributes = {
 					ADA936F11EA4FF2F003D3660 = {
 						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = XU2GV7VZT6;
+						DevelopmentTeam = TEU2W33Z6N;
 						ProvisioningStyle = Automatic;
 					};
 					ADA937051EA4FF2F003D3660 = {
@@ -183,7 +283,6 @@
 			files = (
 				ADA937001EA4FF2F003D3660 /* LaunchScreen.storyboard in Resources */,
 				ADA936FD1EA4FF2F003D3660 /* Assets.xcassets in Resources */,
-				ADA936FB1EA4FF2F003D3660 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,13 +295,117 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2BD9E0D9C3EF862474EF2220 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BatchUpdatesExampleTests/Pods-BatchUpdatesExampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CB2F90825C040F666B58B1C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BatchUpdatesExample/Pods-BatchUpdatesExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF87C6E28D9AF27A4B3A0F74 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D42D1F0F7F9082F2CC6FCA8F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BatchUpdatesExampleTests/Pods-BatchUpdatesExampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F730F9BEB9517278425A5FB4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD8C28A4B3D9E089E55DD77A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BatchUpdatesExample/Pods-BatchUpdatesExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ADA936EE1EA4FF2F003D3660 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADA936F81EA4FF2F003D3660 /* ViewController.swift in Sources */,
+				AD3381631EA570970072D376 /* MovieViewController.swift in Sources */,
+				ADA937221EA50833003D3660 /* MovieCell.swift in Sources */,
+				AD3381641EA570970072D376 /* StartingViewController.swift in Sources */,
+				ADA9371C1EA501F8003D3660 /* DequableTableView.swift in Sources */,
+				ADA9371A1EA501B6003D3660 /* Identifiable.swift in Sources */,
+				AD33815C1EA526380072D376 /* TableViewBatchUpdates.swift in Sources */,
+				ADA937161EA5002F003D3660 /* LabelCell.swift in Sources */,
 				ADA936F61EA4FF2F003D3660 /* AppDelegate.swift in Sources */,
+				ADA937261EA509BB003D3660 /* MoviePresenter.swift in Sources */,
+				AD3381661EA570A10072D376 /* BatchUpdates.swift in Sources */,
+				AD3381561EA51E940072D376 /* AnimatedMoviePresenter.swift in Sources */,
+				AD3381601EA561560072D376 /* BatchUpdatesMoviePresenter.swift in Sources */,
+				ADA9371E1EA50520003D3660 /* MoviePresentable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,7 +413,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADA9370B1EA4FF2F003D3660 /* BatchUpdatesExampleTests.swift in Sources */,
+				ADA9370B1EA4FF2F003D3660 /* BatchUpdates.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,14 +428,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		ADA936F91EA4FF2F003D3660 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ADA936FA1EA4FF2F003D3660 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		ADA936FE1EA4FF2F003D3660 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -341,32 +536,41 @@
 		};
 		ADA937101EA4FF2F003D3660 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EE3800981FF0428EECFA734 /* Pods-BatchUpdatesExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = XU2GV7VZT6;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = TEU2W33Z6N;
 				INFOPLIST_FILE = BatchUpdatesExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.undabot.BatchUpdatesExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		ADA937111EA4FF2F003D3660 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4370240B0AD20AC0DE596A6E /* Pods-BatchUpdatesExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = XU2GV7VZT6;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = TEU2W33Z6N;
 				INFOPLIST_FILE = BatchUpdatesExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.undabot.BatchUpdatesExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		ADA937131EA4FF2F003D3660 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F30A26B65550B5998D215F48 /* Pods-BatchUpdatesExampleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -382,6 +586,7 @@
 		};
 		ADA937141EA4FF2F003D3660 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3FDAA3BCC8B9DDE0DE8BD76 /* Pods-BatchUpdatesExampleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -414,6 +619,7 @@
 				ADA937111EA4FF2F003D3660 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ADA937121EA4FF2F003D3660 /* Build configuration list for PBXNativeTarget "BatchUpdatesExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +628,7 @@
 				ADA937141EA4FF2F003D3660 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
