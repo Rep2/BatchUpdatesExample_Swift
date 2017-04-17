@@ -1,6 +1,0 @@
-framework module Pods_BatchUpdatesExample {
-  umbrella header "Pods-BatchUpdatesExample-umbrella.h"
-
-  export *
-  module * { export * }
-}
